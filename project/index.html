@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <main>
+        <div class="column">
+            <h2>CONTACT</h2>
+            <p></p>
+            <ul>
+                <a href="linkedin.com/in/thiyagarajan-r-74628526a">linkedin.com</a><br>
+                <a href="rthiyaga570@gmail.com">gmail.com</a>
+            </ul>
+            <!-- <img src="your-image.jpg" alt="Sample Image"> -->
+            <a href="https://www.example.com">Visit Example.com</a>
+        </div>
+
+        <!-- Form Creation -->
+        <div class="column">
+            <h2>Form Creation</h2>
+            <form action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="us">United States</option>
+                    <option value="ca">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+
+                <label for="interests">Interests:</label>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+                <label for="reading">Reading</label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="column">
+            <h2>Info:</h2>
+            <p>This form is safe and secure to store the data</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact information: email@example.com</p>
+    </footer>
+</body>
+</html>
